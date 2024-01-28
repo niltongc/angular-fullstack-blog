@@ -13,7 +13,7 @@ export class CategoryListComponent {
   // categories?: Category[];
 
   categories$?: Observable<Category[]>;
-  
+
   constructor(private categoryService: CategoryService) {
 
   }
