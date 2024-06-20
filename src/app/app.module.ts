@@ -12,7 +12,10 @@ import { HttpClientModule} from '@angular/common/http';
 import { EditCategoryComponent } from './features/category/edit-category/edit-category.component';
 import { BlogpostListComponent } from './features/blog-post/blogpost-list/blogpost-list.component';
 import { AddBlogpostComponent } from './features/blog-post/add-blogpost/add-blogpost.component';
-import { EditBlogpostComponent } from './features/blog-post/edit-blogpost/edit-blogpost.component'
+import { EditBlogpostComponent } from './features/blog-post/edit-blogpost/edit-blogpost.component';
+import { ImageSelectorComponent } from './shared/components/image-selector/image-selector.component';
+import { HomeComponent } from './features/public/home/home.component';
+import { BlogDetailsComponent } from './features/public/blog-details/blog-details.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { EditBlogpostComponent } from './features/blog-post/edit-blogpost/edit-b
     EditCategoryComponent,
     BlogpostListComponent,
     AddBlogpostComponent,
-    EditBlogpostComponent
+    EditBlogpostComponent,
+    ImageSelectorComponent,
+    HomeComponent,
+    BlogDetailsComponent
   ],
   imports: [
     BrowserModule,
